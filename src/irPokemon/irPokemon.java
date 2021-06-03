@@ -12,5 +12,6 @@ import java.rmi.RemoteException;
  * @author Pipe_
  */
 public interface irPokemon extends Remote{
+    //comentario de prueba
     String pokeHoroscopo (int anho) throws RemoteException;    
 }
