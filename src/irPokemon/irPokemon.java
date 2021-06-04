@@ -6,6 +6,7 @@
 package irPokemon;
 import java.rmi.Remote;
 import java.rmi.RemoteException;
+import java.util.ArrayList;
 
 /**
  *
@@ -14,6 +15,7 @@ import java.rmi.RemoteException;
 public interface irPokemon extends Remote{
     //comentario de prueba
     //comentario de prueba Diego
-    //comentario de prueba 2, de Juan :D
-    String pokeHoroscopo (int anho) throws RemoteException;    
+    //comentario de prueba 2, de Juan
+    String pokeHoroscopo (int anho) throws RemoteException;
+    ArrayList<String> batalla(String pokemonIngresado) throws RemoteException;
 }
