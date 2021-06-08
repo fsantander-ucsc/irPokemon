@@ -24,5 +24,8 @@ public interface irPokemon extends Remote{
     String arrojarPokebola() throws RemoteException;
     String arrojarPiedra() throws RemoteException;
     String arrojarCebo() throws RemoteException;
+    String agregarDinero(float monto) throws RemoteException;
+    String quitarDinero(float monto) throws RemoteException;
+    String verBalance() throws RemoteException;
     // FIN FUNCINES DEL SAFARI
 }
