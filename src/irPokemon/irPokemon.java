@@ -18,6 +18,7 @@ public interface irPokemon extends Remote{
     //comentario de prueba 2, de Juan
     String pokeHoroscopo (int anho) throws RemoteException;
     ArrayList<String> batalla(String pokemonIngresado) throws RemoteException;
+    ArrayList<String> getListaPokemon() throws RemoteException;
     String consultaPokemon(String pokemonIngresado) throws RemoteException;
     // INICIO FUNCIONES SAFARI
     String safariPokemon () throws RemoteException;
@@ -27,5 +28,6 @@ public interface irPokemon extends Remote{
     String agregarDinero(float monto) throws RemoteException;
     String quitarDinero(float monto) throws RemoteException;
     String verBalance() throws RemoteException;
+    
     // FIN FUNCINES DEL SAFARI
 }
