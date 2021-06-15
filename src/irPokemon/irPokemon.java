@@ -28,6 +28,7 @@ public interface irPokemon extends Remote{
     String agregarDinero(float monto) throws RemoteException;
     String quitarDinero(float monto) throws RemoteException;
     String verBalance() throws RemoteException;
+    ArrayList<String> getListaPokemonCapturados() throws RemoteException;
     
     // FIN FUNCINES DEL SAFARI
 }
